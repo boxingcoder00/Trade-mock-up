@@ -5,6 +5,18 @@
     box-sizing: border-box;
 }
 
+.financing-banner {
+    background: #003663;
+    text-align: center;
+    padding: 10px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 5;
+    font-size: 14px;
+    font-weight: bold;
+}
+
 .banner {
     background: #8B0000;
 }
@@ -113,4 +125,15 @@ ul{
     font-size: 35px;
     margin-top: 20px;
     padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 760px) {
+    .banner {
+        background: #8B0000;
+        max-width: 760px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
 }
