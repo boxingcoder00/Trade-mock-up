@@ -128,46 +128,47 @@ ul{
     padding-bottom: 20px;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1100px) {
 
     * {
         margin: 0;
         padding: 0;
         font-family: Arial, Helvetica, sans-serif;
         box-sizing: border-box;
+        max-width: 100%;
     }
     
     .banner {
         background: #8B0000;
-        max-width: 100%;
         max-height: 1024px;
+        max-width: 100%;
         margin: auto;
         display: block;
     }
 
     .container{
-        max-width: 768px;
+        max-width: 100%;
         margin: auto;
         display: block;
     }
 
     img {
-        max-width: 100%;
         max-height: 1024px;
+        max-width: 100%;
         margin: auto;
         display: block;
         
     }
 
     .footer-content {
-        max-width: 1200px;
         max-height: 1024px;
+        max-width: 100%;
         margin: auto;
         display: block;
     }
 
     .banner-content {
-        max-width: 1200px;
+        max-width: 100%;
         max-height: 1024px;
         margin: auto;
         display: block;
@@ -175,7 +176,7 @@ ul{
     }
 
     .footer-copyright {
-        max-width: 1200px;
+        max-width: 100%;
         max-height: 1024px;
         margin: auto;
         display: block;
